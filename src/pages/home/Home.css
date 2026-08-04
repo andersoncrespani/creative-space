@@ -1,0 +1,42 @@
+.container {
+     display: flex;
+    margin-top: 20px;
+    padding: 20px;
+    max-width: 1100px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 200px;
+    
+}
+
+.item {
+    display: flex;
+    padding: 20px;
+    border-radius: 7px;
+}
+
+.item2 {
+    
+    margin: 0;
+    margin-top: 40px;
+    border-radius: 6px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.botao2 {
+    text-decoration: none;
+    color: black;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: blue;
+
+}
+
+.botao2:hover {
+    padding: 45px;
+}
