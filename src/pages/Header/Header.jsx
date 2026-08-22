@@ -9,7 +9,7 @@ function Header() {
         </div>
         <nav className="nav-bar">
             <a href="https://github.com/andersoncrespani/creative-space">github</a>
-            <Link to= "/Login">Login</Link>
+            {/* <Link to= "/Login">Login</Link> */}
         </nav>
       </header>
     )
