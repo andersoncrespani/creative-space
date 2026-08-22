@@ -10,10 +10,13 @@
     box-sizing: border-box;
     background-color: rgb(226, 225, 223);
     
+    
 }
 .name {
     margin: 0;
     font-family:sans-serif;
+    text-decoration: none;
+    color: black;
 }
 
 .nav-bar {

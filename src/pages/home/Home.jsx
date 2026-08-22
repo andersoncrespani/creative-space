@@ -1,16 +1,11 @@
 import './Home.css'
+import { GameDeals } from '../../js/game'
 
 function Home() {
     return (
-
-        <div className='container'>
-            <div className='item'>
-                <h2 className='item2'><a className='botao2' href="">abrir projeto</a></h2>
-            </div>
-            <div className='item'>
-                <h2 className='item2'><a className='botao2' href="">criar projeto</a></h2>
-            </div>
-        </div>
+          <main>
+            <GameDeals />
+          </main>
     )
 }
 

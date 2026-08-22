@@ -5,11 +5,10 @@ function Header() {
     return (
       <header className="Header">
         <div className="name-div">
-            <h2 className="name">creative-space</h2>
+            <a className="name" href="/"><h2 className="name">creative-space</h2></a>
         </div>
         <nav className="nav-bar">
-            <a href="#">espaço</a>
-            <a href="#">projetos</a>
+            <a href="https://github.com/andersoncrespani/creative-space">github</a>
             <Link to= "/Login">Login</Link>
         </nav>
       </header>
