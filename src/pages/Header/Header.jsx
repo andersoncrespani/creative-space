@@ -5,7 +5,7 @@ function Header() {
     return (
       <header className="Header">
         <div className="name-div">
-            <a className="name" href="/"><h2 className="name">creative-space</h2></a>
+            <a className="name" href="/"><h2 className="name">game-news</h2></a>
         </div>
         <nav className="nav-bar">
             <a href="https://github.com/andersoncrespani/creative-space">github</a>
