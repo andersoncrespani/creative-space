@@ -10,7 +10,7 @@ function Login() {
                 <input className='input' type="email" placeholder='seu@email.com'/>
                 <label For="password">senha</label>
                 <input className='input' type="password"/>
-                 <link rel="stylesheet" href="/Criarconta" /><a className='conta1' href="/Criarconta">criar conta</a>
+                 <Link className='conta' to= "/Criarconta">Criar conta</Link>
                 <button className='botao'>entrar</button>
             </div>
             </form>
