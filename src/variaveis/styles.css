@@ -5,6 +5,7 @@
     --cor-botao: black;
     --botao-text: white;
     --login:  rgb(182, 131, 216);
+    --footer-color: rgba(235, 235, 235, 0.089);
 }
 
 [data-theme="dark"] {
@@ -13,6 +14,6 @@
     --cor-borda: rgb(255, 255, 255);
     --cor-botao: #007bff;
     --botao-text: rgb(2, 1, 1);
-    --login:rgb(182, 131, 216);
+    --login:rgba(161, 83, 212, 0.473);
 
 }

@@ -1,5 +1,5 @@
 import './Home.css'
-import { GameDeals } from '../../js/game'
+import { GameDeals } from '../../api/game'
 
 function Home() {
     return (

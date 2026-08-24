@@ -24,7 +24,7 @@ export function GameDeals() {
     setVisibleCount((prevCount) => prevCount + 6); 
   };
 
-  if (loading) return <p>Carregando novidades...</p>;
+  if (loading) return <p className='carregando-nov'>Carregando novidades...</p>;
 
   return (
     <div className="game-news-container">

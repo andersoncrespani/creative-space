@@ -8,9 +8,9 @@
     justify-content: space-between;
     padding:16px;
     box-sizing: border-box;
-    background-color: rgb(182, 131, 216);
-    
-    
+    background-color: var(--login);
+    position: relative;
+    bottom: 15px;
 }
 .name {
     margin: 0;
@@ -22,6 +22,8 @@
     border-radius: 8px;
     text-transform: uppercase;
     letter-spacing: 3px;
+    position: relative;
+    bottom: 10px;
 }
 
 .nav-bar {
@@ -32,7 +34,7 @@
     border-radius: 6px;
     padding-left: 4px;
     padding-right: 4px;
-    background-color: rgb(111, 12, 177);
+    background-color: var(--login);
     
 }
 

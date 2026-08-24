@@ -1,0 +1,33 @@
+.footer {
+    background-color: var(--footer-color);
+    max-width: 1100px;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid blueviolet;
+}
+
+.foo {
+    display: flex;
+    text-align: left;
+    text-decoration: none;
+    color: blueviolet;
+
+
+}
+
+.lis {
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+}
+
+.footer-ol {
+     display: flex;
+    justify-content: space-between;
+}
+
+.foo:hover {
+    color: rgb(122, 93, 120);
+}
