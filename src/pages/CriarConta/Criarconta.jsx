@@ -2,18 +2,18 @@ import './Criarconta.css'
 
 function Criarconta() {
     return (
-        <main className='login-container'>
-            <form className='login-card'>
-                <div className='login'>
+        <main className='login-container1'>
+            <form className='login-card1'>
+                <div className='login1'>
                     <h2>criar conta</h2>
                     <label For="email">E-mail</label>
-                    <input className='input' type="email" placeholder='seu@email.com' />
+                    <input className='input1' type="email" placeholder='seu@email.com' />
                     <label For="">seu nome</label>
-                    <input className='input' type="text" />
+                    <input className='input1' type="text" />
                     <label For="password">senha</label>
-                    <input className='input' type="password" />
-                    <a className='conta' href="/Login">entrar</a>
-                    <button className='botao'>criar conta</button>
+                    <input className='input1' type="password" />
+                    <a className='conta1' href="/Login">entrar</a>
+                    <button className='botao1'>criar conta</button>
                 </div>
 
             </form>
