@@ -1,14 +1,14 @@
 .Header {
     max-width: 1100px;
     margin: 0 auto;
-    border-bottom: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid var(--color-text);
     border-radius: 6px;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
     padding:16px;
     box-sizing: border-box;
-    background-color: rgb(104, 102, 102);
+    background-color: rgb(182, 131, 216);
     
     
 }
@@ -17,8 +17,8 @@
     font-family:'Trebuchet MS', 'Tahoma', sans-serif;
     text-decoration: none;
     color: rgb(0, 0, 0);
-    border-top: 2px solid  rgb(247, 247, 235);
-    border-bottom: 2px  solid rgb(247, 247, 235);
+    border-top: 2px solid var(--botao-text);
+    border-bottom: 2px  solid var(--botao-text);
     border-radius: 8px;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -28,15 +28,48 @@
     display: flex;
     gap: 10px;
     font-size: 20px;
-    justify-content: flex-end;
+    border: 3px solid blueviolet;
+    border-radius: 6px;
+    padding-left: 4px;
+    padding-right: 4px;
+    background-color: rgb(111, 12, 177);
+    
 }
 
 .nav-bar a {
+    display:flex;
     text-decoration: none;
-    color: white;
+    color: var(--botao-text);
+    font-family:cursive;
+    position: relative;
+    left: 20px;
+    
 }
 
 .nav-bar a:hover {
-    color: rgb(185, 178, 178);
+    color: var(--color-text)
 }
+
+.theme-toggle-btn {
+  display: flex;
+  font-size: 20px;
+  background-color: var(--color-text) ;
+  border-radius: 7px;
+  cursor: pointer;
+  color: var(--botao-text);
+  padding: 2px 7px;
+  border-color: blueviolet;
+}
+
+.theme-toggle-btn:hover {
+    background-color: rgb(124, 119, 122);
+    color: white;
+}
+
+.nav-container {
+    justify-content: center;
+    position: relative;
+    top: 13px;
+}
+
 

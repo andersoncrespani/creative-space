@@ -1,0 +1,18 @@
+:root {
+    --cor-back: rgb(231, 228, 228);
+    --color-text: rgb(0, 0, 0);
+    --cor-borda: black;
+    --cor-botao: black;
+    --botao-text: white;
+    --login:  rgb(182, 131, 216);
+}
+
+[data-theme="dark"] {
+    --cor-back: rgb(19, 17, 17);
+    --color-text: rgb(255, 252, 252);
+    --cor-borda: rgb(255, 255, 255);
+    --cor-botao: #007bff;
+    --botao-text: rgb(2, 1, 1);
+    --login:rgb(182, 131, 216);
+
+}

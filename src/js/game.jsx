@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import './game.css';
+import '../variaveis/styles.css'
 
 export function GameDeals() {
   const [giveaways, setGiveaways] = useState([]);
@@ -47,7 +48,7 @@ export function GameDeals() {
               rel="noopener noreferrer"
               className="game-card-button"
             >
-              resgatar
+              ver mais
             </a>
           </div>
         ))}

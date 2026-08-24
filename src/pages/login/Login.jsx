@@ -9,10 +9,9 @@ function Login() {
                 <input className='input' type="email" placeholder='seu@email.com'/>
                 <label For="password">senha</label>
                 <input className='input' type="password"/>
-                <a className='conta' href="#">criar conta</a>
+                <a className='conta' href="/Criarconta">criar conta</a>
                 <button className='botao'>entrar</button>
             </div>
-            
             </form>
         </main>
     )
