@@ -12,7 +12,7 @@ function Criarconta() {
                     <input className='input1' type="text" />
                     <label For="password">senha</label>
                     <input className='input1' type="password" />
-                    <link rel="stylesheet" href="" /><a className='conta1' href="/Login">entrar</a>
+                    <Link className='conta1' to= "/Login">entrar</Link>
                     <button className='botao1'>criar conta</button>
                 </div>
 
