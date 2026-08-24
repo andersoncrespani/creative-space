@@ -1,5 +1,5 @@
 import './Criarconta.css'
-
+import { Link } from "react-router-dom"
 function Criarconta() {
     return (
         <main className='login-container1'>
@@ -12,7 +12,7 @@ function Criarconta() {
                     <input className='input1' type="text" />
                     <label For="password">senha</label>
                     <input className='input1' type="password" />
-                    <a className='conta1' href="/Login">entrar</a>
+                    <link rel="stylesheet" href="" /><a className='conta1' href="/Login">entrar</a>
                     <button className='botao1'>criar conta</button>
                 </div>
 
